@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Netflix Clone </title>
 
+    <link rel="icon" type="image/png" href="images/netflix.png"/>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -18,18 +19,19 @@
                     <img src="images/logo.png" alt="">
                 </div>
                 <div class="navbar_menu">
-                    <button class="language"></button>
-                    <button class="signIn"></button>
+                    <a href="#" class="language">Language</a>
+                    <a href="#" class="login">Sing In</a>
                 </div>
             </div>
 
             <div class="header_content">
                 <h1>The biggest local and international hits. All here from THB99.</h1>
-                <p>Join taday. Cancel anytime.</p>
+                <p class="text-info">Join taday. Cancel anytime.</p>
+                <p class="text-info">Ready to watch? Enter youe email to create or restart your membership.</p>
+                    <input type="email" id="emailAddress" placeholder="" required>
 
-                <form action="#">
-                    <label for="emailAddress">Ready to watch? Enter youe email to create or restart your membership.</label>
-                    <input type="email" id="emailAddress" placeholder="Email address" required>
+                <form action="#" class="header_form">
+                    <label class="label" for="emailAddress">Email address</label>
                     <input type="submit" value="Get Started">
                 </form>
             </div>
