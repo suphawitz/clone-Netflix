@@ -65,6 +65,11 @@ input {
 .btn-hover:hover {
     background-color: #b30000;
 }
+
+.font-h1 {
+    font-family: 'poppinsbold';
+    font-size: 2.5rem;
+}
 /* ----------- Header ----------- */
 .header {
     width: 100%;
@@ -72,7 +77,7 @@ input {
     background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(images/header-image.png);
     background-size: cover;
     background-position: center;
-    border-bottom: 5px solid #303030;
+    border-bottom: 8px solid #303030;
     z-index: 111;
 }
 
@@ -118,6 +123,7 @@ input {
 
 .header_content h1 {
     font-size: 3rem;
+    line-height: 60px;
     font-family: 'poppinsbold';
     font-weight: bold;
     text-align: center;
@@ -136,7 +142,7 @@ input {
     font-size: 16px;
     border: 1px solid #fff;
     border-radius: 3px;
-    padding: 1.2rem 1rem;
+    padding: 1rem;
     background-color: rgba(0, 0, 0, 0.3);
     color: #fff;
 }
@@ -152,6 +158,77 @@ input {
 }
 
 .header_form input[type=submit]:hover {
-    /* background-color: #b30000; */
+    background-color: #b30000;
 }
 
+/* ----------- Feature_1 ----------- */
+.feature_1 {
+    width: 100%;
+    border-bottom: 8px solid #303030;
+    padding: 3rem 0;
+}
+
+.feature1_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.feature1_img img {
+    width: 100%;
+}
+
+
+/* ----------- Feature_1 ----------- */
+.feature_2 {
+    width: 100%;
+    border-bottom: 8px solid #303030;
+    padding: 3rem 0;
+}
+
+.feature2_content {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+.feature2_img img {
+    width: 100%;
+}
+
+/* ----------- Feature_3 ----------- */
+.feature_3 {
+    width: 100%;
+    border-bottom: 8px solid #303030;
+    padding: 3rem 0;
+}
+
+.feature3_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.feature3_img img {
+    width: 100%;
+}
+
+/* ----------- Feature_4 ----------- */
+.feature_4 {
+    width: 100%;
+    border-bottom: 8px solid #303030;
+    padding: 3rem 0;
+}
+
+.feature4_content {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+.feature4_img img {
+    width: 100%;
+}
